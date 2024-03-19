@@ -1,0 +1,13 @@
+Collecting PySide6
+  Downloading PySide6-6.5.1-cp37-abi3-win_amd64.whl (7.2 kB)
+Collecting shiboken6==6.5.1 (from PySide6)
+  Downloading shiboken6-6.5.1-cp37-abi3-win_amd64.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 966.3 kB/s eta 0:00:00
+Collecting PySide6-Essentials==6.5.1 (from PySide6)
+  Downloading PySide6_Essentials-6.5.1-cp37-abi3-win_amd64.whl (72.8 MB)
+     ---------------------------------------- 72.8/72.8 MB 6.0 MB/s eta 0:00:00
+Collecting PySide6-Addons==6.5.1 (from PySide6)
+  Downloading PySide6_Addons-6.5.1-cp37-abi3-win_amd64.whl (111.8 MB)
+     -------------------------------------- 111.8/111.8 MB 4.4 MB/s eta 0:00:00
+Installing collected packages: shiboken6, PySide6-Essentials, PySide6-Addons, PySide6
+Successfully installed PySide6-6.5.1 PySide6-Addons-6.5.1 PySide6-Essentials-6.5.1 shiboken6-6.5.1
