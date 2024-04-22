@@ -35,7 +35,7 @@ import pkg_resources as pkg
 import torch
 import torchvision
 import yaml
-from ultralytics.yolo.utils.checks import check_requirements
+from ultralytics.utils.checks import check_requirements
 
 from YOLO.utils import TryExcept, emojis
 from YOLO.utils.downloads import curl_download, gsutil_getsize
@@ -538,7 +538,7 @@ def check_dataset(data, autodownload=True):
 
 def check_amp(model):
     # Check PyTorch Automatic Mixed Precision (AMP) functionality. Return True on correct operation
-    from models.common import AutoShape, DetectMultiBackend
+    from YOLO.models.common import AutoShape, DetectMultiBackend
 
     def amp_allclose(model, im):
         # All close FP32 vs AMP results
