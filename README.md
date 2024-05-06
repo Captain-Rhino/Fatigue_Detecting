@@ -9,6 +9,7 @@
 这里的环境文件为requirements.txt，而不是coursedesignreq.txt，可以说requirements.txt是coursedesignreq.txt的子集，因为作者经常使用这个环境，所以配了很多不必要的东西
 
 Fatigue Detecting Based on YOLOv5 and dlib detecting
+
 Email:Toss_3@163.com
 
 ATTENTION！
